@@ -97,7 +97,6 @@ return {
           { "   So dont add them in your chadrc as MasonInstallAll automatically installs them! \n", "Changed" },
         }, false, {})
       end
-
       require("mason").setup(opts)
     end,
   },
@@ -193,7 +192,6 @@ return {
       end, 0)
     end,
   },
-
   {
     "nvim-treesitter/nvim-treesitter",
     event = { "BufReadPost", "BufNewFile" },

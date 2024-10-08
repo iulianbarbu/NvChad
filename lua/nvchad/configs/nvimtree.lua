@@ -31,6 +31,10 @@ local options = {
       },
     },
   },
+  diagnostics = {
+    enable = true,
+    show_on_dirs = true,
+  },
 }
 
 return options

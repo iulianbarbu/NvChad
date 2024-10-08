@@ -4,7 +4,7 @@ pcall(function()
 end)
 
 local options = {
-  ensure_installed = { "lua", "luadoc", "printf", "vim", "vimdoc" },
+  ensure_installed = { "lua", "luadoc", "printf", "vim", "vimdoc", "rust", "toml", "gitcommit", "diff", "git_rebase" },
 
   highlight = {
     enable = true,
